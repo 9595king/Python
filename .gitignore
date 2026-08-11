@@ -1,0 +1,7 @@
+.ipynb_checkpoints/
+.virtual_documents
+data/.ipynb_checkpoints/
+img/
+*.jpg
+.env
+평균인구수미만행정구역.xlsx
