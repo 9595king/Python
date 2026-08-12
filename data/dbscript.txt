@@ -25,3 +25,6 @@ show grants for current_user;
 use python_db;
 # table 목록 확인
 show tables;
+
+select 곡명 from songs;
+select 곡명 from songs where 가수 = '방탄소년단';
