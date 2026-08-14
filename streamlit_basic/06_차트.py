@@ -23,7 +23,7 @@ def load_data():
 
 df = load_data()
 by_year = df[df['release_year'] >= 2010]['release_year'].value_counts().sort_index()
-
+print(by_year)
 # ---------- 방법 1: streamlit 내장 차트 (간단) ----------
 st.subheader('내장 차트 - st.bar_chart')
 st.bar_chart(by_year)

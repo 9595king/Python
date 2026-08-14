@@ -28,7 +28,7 @@ if sido_df.empty:
 else:
     # 데이터 표시
     st.subheader(f" {sido_name}의 DataFrame")
-    st.dataframe(sido_df)
+    st.dataframe(sido_df, use_container_width=True)
 
     # 인구수 그래프
     st.subheader(f" {sido_name}의 인구수 현황")
